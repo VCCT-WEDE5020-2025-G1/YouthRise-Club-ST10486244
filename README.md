@@ -9,7 +9,7 @@ The website will be easy to use, with bright, fun colors and a simple layout tha
 Main sections will include Home, About Us, Programmes, Events Calendar, Volunteer & Donation pages, and Contact Us. It will also link to the club’s social media to help everyone stay updated.
 
 # Sitemap
-<img width="940" height="428" alt="image" src="https://github.com/user-attachments/assets/f677a55e-5b0c-46dd-9f02-99d3cd25d261" />
+<img width="1031" height="519" alt="image" src="https://github.com/user-attachments/assets/ff2a1313-f099-4507-bdb6-8be68239640b" />
 
 # Link to Respository 
 https://github.com/VCCT-WEDE5020-2025-G1/YouthRise-Club-ST10486244/tree/main

@@ -1,81 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>YouthRise Club - Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouthRise Club - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- Header with Logo and Navigation -->
+<!-- Header -->
 <header>
   <img src="logo.png" alt="YouthRise Logo" width="100">
   <nav>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About Us</a> |
-    <a href="programmes.html">Programmes</a> |
-    <a href="events.html">Events</a> |
-    <a href="volunteeranddonation.html">Volunteer & Donation</a> |
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="programmes.html">Programmes</a>
+    <a href="events.html">Events</a>
+    <a href="volunteeranddonation.html">Volunteer & Donation</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
 
-<!-- Top Section: Display Image and Organisation Info -->
-<section>
-  <div>
-    <h2>Display Image</h2>
-    <!-- You can replace this with <img src="image.jpg" alt="YouthRise Image"> later -->
-  </div>
-
+<!-- Hero Section -->
+<section class="container hero">
+  <img src="hero.jpg" alt="YouthRise youth event">
   <div>
     <p>Founded in 2018 in <b>Durban</b>, YouthRise Club is a <em>non-profit</em> organisation dedicated to empowering young people through leadership training, career mentorship, and creative expression workshops.</p>
     <p>Our mission is to inspire and uplift youth through skills, mentorship, and community-driven programmes.</p>
     <p>We envision a generation of confident, skilled youth shaping the future of South Africa.</p>
-    <p>Target Audience: Youth aged <b>13-25,</b> parents, schools, mentors, sponsors, and NGOs.</p>
-    <button onclick="location.href='programmes.html'">Join a Programme</button>
+    <button class="btn" onclick="location.href='programmes.html'">Join a Programme</button>
   </div>
 </section>
 
-<!-- Programme Cards Section -->
-<section>
+<!-- Programmes -->
+<section class="container programmes">
   <h2>Our Programmes</h2>
-  <div>
-    <h3>Creative Programme</h3>
-    <p>Explore art, music, dance, and writing workshops.</p>
-    <button onclick="location.href='programmes.html#creative-details'">View Details</button>
-  </div>
-
-  <div>
-    <h3>Career Programme</h3>
-    <p>Mentorship, CV building, and professional skills.</p>
-    <button onclick="location.href='programmes.html#career-details'">View Details</button>
-  </div>
-
-  <div>
-    <h3>Leadership Programme</h3>
-    <p>Workshops on communication, teamwork, and leadership.</p>
-    <button onclick="location.href='programmes.html#leadership-details'">View Details</button>
-  </div>
-
-  <div>
-    <h3>Additional Programme</h3>
-    <p>Other youth engagement activities.</p>
-    <button onclick="location.href='programmes.html'">View Details</button>
+  <div class="cards">
+    <div class="card">
+      <h3>Creative Programme</h3>
+      <p>Explore art, music, dance, and writing workshops.</p>
+      <button class="btn" onclick="location.href='programmes.html#creative-details'">View Details</button>
+    </div>
+    <div class="card">
+      <h3>Career Programme</h3>
+      <p>Mentorship, CV building, and professional skills.</p>
+      <button class="btn" onclick="location.href='programmes.html#career-details'">View Details</button>
+    </div>
+    <div class="card">
+      <h3>Leadership Programme</h3>
+      <p>Workshops on communication, teamwork, and leadership.</p>
+      <button class="btn" onclick="location.href='programmes.html#leadership-details'">View Details</button>
+    </div>
+    <div class="card">
+      <h3>Additional Programme</h3>
+      <p>Other youth engagement activities.</p>
+      <button class="btn" onclick="location.href='programmes.html'">View Details</button>
+    </div>
   </div>
 </section>
 
-<!-- Footer Section -->
+<!-- Footer -->
 <footer>
   <div>
-    <h3>Image</h3>
+    <img src="footer-image.jpg" alt="YouthRise community">
   </div>
-  <div>
-    <button onclick="location.href='contact.html'">Contact</button>
-    <button>Facebook</button>
-    <button>Twitter</button>
-    <button>Instagram</button>
-    <button>LinkedIn</button>
-    <button>Youtube</button>
-    <span>&copy; Copyright / NGO Reg. no.</span>
+  <div class="social">
+    <button class="btn" onclick="location.href='contact.html'">Contact</button>
+    <button class="btn">Facebook</button>
+    <button class="btn">Twitter</button>
+    <button class="btn">Instagram</button>
+    <button class="btn">LinkedIn</button>
+    <button class="btn">YouTube</button>
+    <span>&copy; 2025 YouthRise Club – NGO Reg. No.</span>
   </div>
 </footer>
 

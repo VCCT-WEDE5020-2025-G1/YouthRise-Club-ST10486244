@@ -85,3 +85,8 @@ Mobile
  [Accessed 29 September 2025].
 - Mozilla Developer Network (MDN) (2025) CSS Flexbox. [Online] Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
  [Accessed 29 September 2025].
+
+#  Acknowledgment – AI Assistance
+
+Parts of the content in this project, including HTML structure guidance, CSS layout suggestions, and README formatting, were assisted by AI (OpenAI’s ChatGPT).
+The final work is my own.

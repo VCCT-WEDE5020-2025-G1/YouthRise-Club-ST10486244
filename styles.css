@@ -145,32 +145,39 @@ form textarea:focus {
   outline: none;
 }
 
-/* ---------- Footer ---------- */
 footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: var(--dark);
   color: var(--light);
-  text-align: center;
-  padding: 2rem;
-  margin-top: 2rem;
+  padding: 1.5rem 2rem;
+  flex-wrap: wrap;
 }
-footer .social a,
+
+footer .footer-left {
+  text-align: left;
+  flex: 1;
+}
+
+footer .footer-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 footer .social button {
-  margin: 0.3rem;
+  margin: 0; 
 }
 
-/* ---------- Utilities ---------- */
-.text-center { text-align: center; }
-.bg-gray { background: var(--gray); }
-.mt-2 { margin-top: 2rem; }
-
-/* ---------- Responsive ---------- */
 @media (max-width: 768px) {
-  header { flex-direction: column; }
-  .hero { grid-template-columns: 1fr; }
-  nav a { margin: 0.5rem 0; display: inline-block; }
-}
-
-@media (max-width: 480px) {
-  h1 { font-size: 1.8rem; }
-  h2 { font-size: 1.4rem; }
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .footer-left,
+  footer .footer-right {
+    flex: unset;
+    margin-bottom: 1rem;
+  }
 }

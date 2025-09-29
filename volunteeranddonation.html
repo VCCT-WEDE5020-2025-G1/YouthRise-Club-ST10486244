@@ -1,60 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<meta charset="UTF-8">
-<title>YouthRise Club - Volunteer & Donation</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouthRise Club - Volunteer & Donation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- Top section: logo and navigation -->
-<img src="logo.png" alt="YouthRise Logo" width="100">
-<h1>YouthRise Club</h1>
-<nav>
-  <a href="index.html">Home</a> |
-  <a href="about.html">About Us</a> |
-  <a href="programmes.html">Programmes</a> |
-  <a href="events.html">Events</a> |
-  <a href="volunteeranddonation.html">Volunteer & Donation</a> |
-  <a href="contact.html">Contact</a>
-</nav>
+<header>
+  <img src="logo.png" alt="YouthRise Logo" class="logo" width="100">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="programmes.html">Programmes</a>
+    <a href="events.html">Events</a>
+    <a href="volunteeranddonation.html">Volunteer & Donation</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-<!-- Main content -->
-<h2>Volunteer With Us</h2>
-<form>
-  Full Name: <input type="text" name="volunteer_name"><br>
-  Email: <input type="email" name="volunteer_email"><br>
-  Skills/Interest: <input type="text" name="volunteer_skills"><br>
-  Why Volunteer: <textarea name="volunteer_reason"></textarea><br>
-  <input type="submit" value="Sign Up">
-</form>
+<section class="container volunteer">
+  <h1 class="text-center">Volunteer & Donation</h1>
 
-<h2>Make a Donation</h2>
-<form>
-  Full Name: <input type="text" name="donor_name"><br>
-  Email: <input type="email" name="donor_email"><br>
-  Amount (ZAR): <input type="number" name="donation_amount"><br>
-  Message: <textarea name="donor_message"></textarea><br>
-  <input type="submit" value="Donate">
-</form>
+  <div class="card">
+    <h2>Volunteer With Us</h2>
+    <form>
+      <label for="volunteer_name">Full Name:</label>
+      <input type="text" id="volunteer_name" name="volunteer_name" placeholder="Your full name">
 
-<!-- Footer same as homepage -->
-<footer>
-  <div>
-    <h3>Image</h3>
+      <label for="volunteer_email">Email:</label>
+      <input type="email" id="volunteer_email" name="volunteer_email" placeholder="Your email">
+
+      <label for="volunteer_skills">Skills / Interests:</label>
+      <input type="text" id="volunteer_skills" name="volunteer_skills" placeholder="Your skills or interests">
+
+      <label for="volunteer_reason">Why Volunteer:</label>
+      <textarea id="volunteer_reason" name="volunteer_reason" placeholder="Why you want to volunteer"></textarea>
+
+      <button class="btn" type="submit">Sign Up</button>
+    </form>
   </div>
-  <div>
-    <button onclick="location.href='contact.html'">Contact</button>
-    <button>Facebook</button>
-    <button>Twitter</button>
-    <button>Instagram</button>
-    <button>LinkedIn</button>
-    <button>Youtube</button>
-    <span>&copy; Copyright / NGO Reg. no.</span>
+
+  <div class="card mt-2">
+    <h2>Make a Donation</h2>
+    <form>
+      <label for="donor_name">Full Name:</label>
+      <input type="text" id="donor_name" name="donor_name" placeholder="Your full name">
+
+      <label for="donor_email">Email:</label>
+      <input type="email" id="donor_email" name="donor_email" placeholder="Your email">
+
+      <label for="donation_amount">Amount (ZAR):</label>
+      <input type="number" id="donation_amount" name="donation_amount" placeholder="Amount in ZAR">
+
+      <label for="donor_message">Message:</label>
+      <textarea id="donor_message" name="donor_message" placeholder="Your message (optional)"></textarea>
+
+      <button class="btn" type="submit">Donate</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-left">
+    <span>© 2025 YouthRise Club – NGO Reg. No.</span>
+  </div>
+  <div class="footer-right social">
+    <button class="btn" onclick="location.href='contact.html'">Contact</button>
+    <button class="btn">Facebook</button>
+    <button class="btn">Twitter</button>
+    <button class="btn">Instagram</button>
+    <button class="btn">LinkedIn</button>
+    <button class="btn">YouTube</button>
   </div>
 </footer>
 
 </body>
 </html>
-

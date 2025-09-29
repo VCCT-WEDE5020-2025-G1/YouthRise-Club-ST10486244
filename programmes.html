@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<meta charset="UTF-8">
-<title>YouthRise Club - Programmes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouthRise Club - Programmes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- Top section: logo, banner, navigation -->
-<img src="logo.png" alt="YouthRise Logo" width="100">
-<h1>YouthRise Club Programmes</h1>
-<nav>
-  <a href="index.html">Home</a> |
-  <a href="about.html">About Us</a> |
-  <a href="programmes.html">Programmes</a> |
-  <a href="events.html">Events</a> |
-  <a href="volunteeranddonation.html">Volunteer & Donation</a> |
-  <a href="contact.html">Contact</a>
-</nav>
+<header>
+  <img src="logo.png" alt="YouthRise Logo" class="logo" width="100">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="programmes.html">Programmes</a>
+    <a href="events.html">Events</a>
+    <a href="volunteeranddonation.html">Volunteer & Donation</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-<!-- Programmes Section -->
-<h2>Our Programmes</h2>
+<section class="container programmes">
+  <h1 class="text-center">YouthRise Club Programmes</h1>
+  
+  <div class="cards">
+    <div class="card" id="creative-details">
+      <h3>Creative Programme</h3>
+      <p>The Creative Programme encourages youth to explore their artistic talents through workshops in painting, drama, music, creative writing, and dance. Participants develop confidence and can showcase their work in exhibitions or performances.</p>
+      <button class="btn" onclick="location.href='contact.html'">Join Now</button>
+    </div>
 
-<h3>Creative Programme</h3>
-<p>The Creative Programme encourages youth to explore their artistic talents through workshops in painting, drama, music, creative writing, and dance. 
-Participants are provided a safe space to express themselves, develop confidence, and collaborate with others on projects. 
-By the end of the programme, students can showcase their creative work in exhibitions, performances, or online platforms.</p>
+    <div class="card" id="career-details">
+      <h3>Career Programme</h3>
+      <p>The Career Programme prepares youth for the professional world with mentorship, CV workshops, interview practice, job shadowing, and entrepreneurship guidance. Participants gain practical skills and networking opportunities.</p>
+      <button class="btn" onclick="location.href='contact.html'">Join Now</button>
+    </div>
 
-<h3>Career Programme</h3>
-<p>The Career Programme is designed to prepare youth for the professional world. 
-It includes mentorship from experienced professionals, CV and cover letter workshops, interview practice sessions, job shadowing opportunities, and entrepreneurship guidance. 
-Participants gain practical skills, career insights, and networking opportunities to help them make informed choices about their future.</p>
+    <div class="card" id="leadership-details">
+      <h3>Leadership Programme</h3>
+      <p>The Leadership Programme builds essential communication, teamwork, and decision-making skills. Participants are mentored by community leaders and apply their skills to real-life projects to become positive role models.</p>
+      <button class="btn" onclick="location.href='contact.html'">Join Now</button>
+    </div>
 
-<h3>Leadership Programme</h3>
-<p>The Leadership Programme focuses on building essential leadership and teamwork skills. 
-Through workshops on communication, problem-solving, decision-making, and project management, participants develop confidence and learn to lead initiatives effectively. 
-Mentoring from community leaders helps students apply their skills to real-life projects and become positive role models in their communities.</p>
-
-<h3>Additional Programme</h3>
-<p>Our Additional Programme offers opportunities for youth to engage in community service, volunteering projects, and team-building activities. 
-It provides a platform for personal growth, social responsibility, and connecting with peers to make a meaningful impact in their communities.</p>
-
-<!-- Text under programmes -->
-<p>All YouthRise Club programmes are designed to empower young people by developing creativity, career readiness, and leadership skills. 
-Participants gain confidence, practical knowledge, and opportunities to engage with their community,
- build meaningful relationships, and showcase their talents in various platforms.</p>
-
-<!-- Footer same as homepage -->
-<footer>
-  <div>
-    <h3>Image</h3>
+    <div class="card" id="additional-details">
+      <h3>Additional Programme</h3>
+      <p>The Additional Programme offers community service, volunteering, and team-building activities, helping youth grow personally, socially, and engage meaningfully with their communities.</p>
+      <button class="btn" onclick="location.href='contact.html'">Join Now</button>
+    </div>
   </div>
-  <div>
-    <button onclick="location.href='contact.html'">Contact</button>
-    <button>Facebook</button>
-    <button>Twitter</button>
-    <button>Instagram</button>
-    <button>LinkedIn</button>
-    <button>Youtube</button>
-    <span>&copy; Copyright / NGO Reg. no.</span>
+
+  <p class="text-center mt-2">All YouthRise Club programmes are designed to empower young people by developing creativity, career readiness, and leadership skills. Participants gain confidence, practical knowledge, and opportunities to connect with their community and showcase their talents.</p>
+</section>
+<footer>
+  <div class="footer-left">
+    <span>© 2025 YouthRise Club – NGO Reg. No.</span>
+  </div>
+  <div class="footer-right social">
+    <button class="btn" onclick="location.href='contact.html'">Contact</button>
+    <button class="btn">Facebook</button>
+    <button class="btn">Twitter</button>
+    <button class="btn">Instagram</button>
+    <button class="btn">LinkedIn</button>
+    <button class="btn">YouTube</button>
   </div>
 </footer>
-
 </body>
 </html>

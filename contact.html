@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<meta charset="UTF-8">
-<title>YouthRise Club - Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouthRise Club - Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- Top section: logo and navigation -->
-<img src="logo.png" alt="YouthRise Logo" width="100">
-<h1>YouthRise Club</h1>
-<nav>
-  <a href="index.html">Home</a> |
-  <a href="about.html">About Us</a> |
-  <a href="programmes.html">Programmes</a> |
-  <a href="events.html">Events</a> |
-  <a href="volunteeranddonation.html">Volunteer & Donation</a> |
-  <a href="contact.html">Contact</a>
-</nav>
+<header>
+  <img src="logo.png" alt="YouthRise Logo" class="logo" width="100">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="programmes.html">Programmes</a>
+    <a href="events.html">Events</a>
+    <a href="volunteeranddonation.html">Volunteer & Donation</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-<!-- Main content -->
-<h2>Contact Us</h2>
-<p>Email: youthrise@gmail.com</p>
-<p>Phone: +27 82 123 4567</p>
-<p>Follow us on: 
-  <a href="https://www.facebook.com/YouthRise" target="_blank">Facebook</a>, 
-  <a href="https://www.instagram.com/" target="_blank">Instagram</a>, 
-  <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
-</p>
+<section class="container contact">
+  <h1 class="text-center">Contact Us</h1>
 
-<form>
-  Your Name: <input type="text" name="name"><br>
-  Your Email: <input type="email" name="email"><br>
-  Message: <textarea name="message"></textarea><br>
-  <input type="submit" value="Send Message">
-</form>
-
-<!-- Footer same as homepage -->
-<footer>
-  <div>
-    <h3>Image</h3>
+  <div class="card">
+    <h2>Get in Touch</h2>
+    <p><strong>Email:</strong> <a href="mailto:youthrise@gmail.com">youthrise@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+27821234567">+27 82 123 4567</a></p>
+    <p><strong>Follow us on:</strong> 
+      <a href="https://www.facebook.com/YouthRise" target="_blank">Facebook</a>, 
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>, 
+      <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+    </p>
   </div>
-  <div>
-    <button onclick="location.href='contact.html'">Contact</button>
-    <button>Facebook</button>
-    <button>Twitter</button>
-    <button>Instagram</button>
-    <button>LinkedIn</button>
-    <button>Youtube</button>
-    <span>&copy; Copyright / NGO Reg. no.</span>
+
+  <div class="card mt-2">
+    <h2>Send Us a Message</h2>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your full name">
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email address">
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Type your message here"></textarea>
+
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-left">
+    <span>© 2025 YouthRise Club – NGO Reg. No.</span>
+  </div>
+  <div class="footer-right social">
+    <button class="btn" onclick="location.href='contact.html'">Contact</button>
+    <button class="btn">Facebook</button>
+    <button class="btn">Twitter</button>
+    <button class="btn">Instagram</button>
+    <button class="btn">LinkedIn</button>
+    <button class="btn">YouTube</button>
   </div>
 </footer>
 
 </body>
 </html>
-
-

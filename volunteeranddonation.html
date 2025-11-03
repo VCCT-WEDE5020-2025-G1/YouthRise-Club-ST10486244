@@ -25,40 +25,157 @@
 
   <div class="card">
     <h2>Volunteer With Us</h2>
-    <form>
-      <label for="volunteer_name">Full Name:</label>
-      <input type="text" id="volunteer_name" name="volunteer_name" placeholder="Your full name">
+    <form id="volunteerForm" class="form" novalidate>
+      <div class="form-group">
+        <label for="volunteer_name">Full Name: <span class="required">*</span></label>
+        <input 
+          type="text" 
+          id="volunteer_name" 
+          name="volunteer_name" 
+          placeholder="Your full name"
+          required
+          minlength="2"
+          pattern="[A-Za-z\s]+"
+        >
+        <span class="error-message" id="volunteer_name-error"></span>
+      </div>
 
-      <label for="volunteer_email">Email:</label>
-      <input type="email" id="volunteer_email" name="volunteer_email" placeholder="Your email">
+      <div class="form-group">
+        <label for="volunteer_email">Email: <span class="required">*</span></label>
+        <input 
+          type="email" 
+          id="volunteer_email" 
+          name="volunteer_email" 
+          placeholder="Your email"
+          required
+        >
+        <span class="error-message" id="volunteer_email-error"></span>
+      </div>
 
-      <label for="volunteer_skills">Skills / Interests:</label>
-      <input type="text" id="volunteer_skills" name="volunteer_skills" placeholder="Your skills or interests">
+      <div class="form-group">
+        <label for="volunteer_phone">Phone Number:</label>
+        <input 
+          type="tel" 
+          id="volunteer_phone" 
+          name="volunteer_phone" 
+          placeholder="Your phone number"
+          pattern="[0-9+\s-]+"
+        >
+        <span class="error-message" id="volunteer_phone-error"></span>
+      </div>
 
-      <label for="volunteer_reason">Why Volunteer:</label>
-      <textarea id="volunteer_reason" name="volunteer_reason" placeholder="Why you want to volunteer"></textarea>
+      <div class="form-group">
+        <label for="volunteer_skills">Skills / Interests: <span class="required">*</span></label>
+        <textarea 
+          id="volunteer_skills" 
+          name="volunteer_skills" 
+          placeholder="List your skills or areas of interest"
+          required
+          minlength="10"
+          rows="3"
+        ></textarea>
+        <span class="error-message" id="volunteer_skills-error"></span>
+      </div>
 
-      <button class="btn" type="submit">Sign Up</button>
+      <div class="form-group">
+        <label for="volunteer_reason">Why Volunteer: <span class="required">*</span></label>
+        <textarea 
+          id="volunteer_reason" 
+          name="volunteer_reason" 
+          placeholder="Tell us why you want to volunteer"
+          required
+          minlength="20"
+          rows="4"
+        ></textarea>
+        <span class="error-message" id="volunteer_reason-error"></span>
+      </div>
+
+      <button class="btn submit-btn" type="submit">
+        <span class="btn-text">Sign Up to Volunteer</span>
+        <span class="spinner hidden"></span>
+      </button>
     </form>
+    <div id="volunteerResponse" class="response-message hidden"></div>
   </div>
 
   <div class="card mt-2">
     <h2>Make a Donation</h2>
-    <form>
-      <label for="donor_name">Full Name:</label>
-      <input type="text" id="donor_name" name="donor_name" placeholder="Your full name">
+    <form id="donationForm" class="form" novalidate>
+      <div class="form-group">
+        <label for="donor_name">Full Name: <span class="required">*</span></label>
+        <input 
+          type="text" 
+          id="donor_name" 
+          name="donor_name" 
+          placeholder="Your full name"
+          required
+          minlength="2"
+          pattern="[A-Za-z\s]+"
+        >
+        <span class="error-message" id="donor_name-error"></span>
+      </div>
 
-      <label for="donor_email">Email:</label>
-      <input type="email" id="donor_email" name="donor_email" placeholder="Your email">
+      <div class="form-group">
+        <label for="donor_email">Email: <span class="required">*</span></label>
+        <input 
+          type="email" 
+          id="donor_email" 
+          name="donor_email" 
+          placeholder="Your email"
+          required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          title="Please enter a valid email address"
+        >
+        <span class="error-message" id="donor_email-error"></span>
+      </div>
 
-      <label for="donation_amount">Amount (ZAR):</label>
-      <input type="number" id="donation_amount" name="donation_amount" placeholder="Amount in ZAR">
+      <div class="form-group">
+        <label for="donation_amount">Amount (ZAR): <span class="required">*</span></label>
+        <input 
+          type="number" 
+          id="donation_amount" 
+          name="donation_amount" 
+          placeholder="Enter amount"
+          required
+          min="10"
+          step="1"
+        >
+        <span class="error-message" id="donation_amount-error"></span>
+      </div>
 
-      <label for="donor_message">Message:</label>
-      <textarea id="donor_message" name="donor_message" placeholder="Your message (optional)"></textarea>
+      <div class="form-group">
+        <label for="payment_method">Payment Method: <span class="required">*</span></label>
+        <select 
+          id="payment_method" 
+          name="payment_method" 
+          required
+          onchange="validatePaymentMethod(this)"
+        >
+          <option value="">Select payment method</option>
+          <option value="credit_card">Credit Card</option>
+          <option value="debit_card">Debit Card</option>
+          <option value="eft">EFT</option>
+          <option value="paypal">PayPal</option>
+        </select>
+        <span class="error-message" id="payment_method-error"></span>
+      </div>
 
-      <button class="btn" type="submit">Donate</button>
+      <div class="form-group">
+        <label for="donor_message">Message:</label>
+        <textarea 
+          id="donor_message" 
+          name="donor_message" 
+          placeholder="Optional message"
+          rows="3"
+        ></textarea>
+      </div>
+
+      <button class="btn submit-btn" type="submit">
+        <span class="btn-text">Proceed to Payment</span>
+        <span class="spinner hidden"></span>
+      </button>
     </form>
+    <div id="donationResponse" class="response-message hidden"></div>
   </div>
 </main>
 
@@ -75,5 +192,7 @@
     <button class="btn">YouTube</button>
   </div>
 </footer>
+
+<script src="js/validation.js"></script>
 </body>
 </html>

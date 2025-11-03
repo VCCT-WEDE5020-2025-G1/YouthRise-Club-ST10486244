@@ -44,7 +44,7 @@ The club focuses on supporting young people aged 13–25, along with parents, sc
 <img width="1031" height="519" alt="image" src="https://github.com/user-attachments/assets/ff2a1313-f099-4507-bdb6-8be68239640b" />
 
 # Link to Respository
-https://github.com/VCCT-WEDE5020-2025-G1/YouthRise-Club-ST10486244/tree/main
+https://github.com/VCCT-WEDE5020-2025-G1/YouthRise-Club-ST10486244
 
 # Responsiveness Testing
 The website has been tested for desktop, tablet, and mobile:

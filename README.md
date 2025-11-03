@@ -75,6 +75,13 @@ Mobile
 - Made buttons with hover and active states.
 - Applied layout adjustments and responsive design for desktop, tablet, and mobile.
 - Ensured footer stays at the bottom and text/images scale correctly.
+  
+### Part 3 (Functionality + SEO)
+- Added Enquiry page with HTML5 + JavaScript validation, success message, and automatic form reset.
+ - Inserted Enquiry link in the navigation and ensured header title is consistent across pages.
+ - Added SEO meta descriptions to all pages.
+ - Added a hero image on Home.
+ - Updated README with references and acknowledgments.
 
 # References 
 

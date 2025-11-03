@@ -13,25 +13,31 @@ The club focuses on supporting young people aged 13–25, along with parents, sc
 - The site is mobile-friendly, with a simple layout, readable fonts, and bright, fun colors.
 
 # Main Pages:
+# WEBSITE WAS ZOOMED OUT JUST FOR PICTURES OF PAGES 
 - Home
-  <img width="1912" height="1030" alt="Home Page" src="https://github.com/user-attachments/assets/1597c3a6-07f4-4426-812a-72e59831ff03" />
+- <img width="1916" height="944" alt="image" src="https://github.com/user-attachments/assets/9fdac706-b55a-4235-bc14-517dae09db5a" />
 
 - About Us
-  <img width="1919" height="1027" alt="About Page" src="https://github.com/user-attachments/assets/33cb2d64-61a3-48be-a4f3-4209f123e72c" />
+- <img width="1917" height="935" alt="image" src="https://github.com/user-attachments/assets/93760d02-d6f9-4e63-a7ba-c7f738337fd0" />
 
 - Programmes
-  <img width="1919" height="1029" alt="events page" src="https://github.com/user-attachments/assets/a2815135-c448-45ca-9fad-0f59eed71c04" />
+- <img width="1899" height="945" alt="image" src="https://github.com/user-attachments/assets/60dd2e5f-1301-4f57-a0e8-4871e4ec4dfb" />
 
 - Events Calendar
-  <img width="1919" height="1029" alt="events page" src="https://github.com/user-attachments/assets/0f941072-fe38-4e05-9735-9c23e3c73332" />
+- <img width="1919" height="941" alt="image" src="https://github.com/user-attachments/assets/c389f82d-ce18-4353-9fb3-282344ddea59" />
 
 - Volunteer & Donation
-<img width="1919" height="1025" alt="Volunteer and donation page part 1" src="https://github.com/user-attachments/assets/44fb0c8d-8c14-4132-8309-ad2dfc47b54d" />
-<img width="1919" height="1028" alt="Volunteer and donation page part 2" src="https://github.com/user-attachments/assets/88ff3289-1c1f-474a-a733-e4c79272ddbf" />
+- <img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/9a74a176-b487-4e5f-adec-facbb1ead8a5" />
+- <img width="549" height="951" alt="image" src="https://github.com/user-attachments/assets/cdea20ff-abff-4cab-b2b4-dee2590d1ec8" />
+<img width="1902" height="949" alt="image" src="https://github.com/user-attachments/assets/a3f164ba-0bf3-4e79-ad7e-5d1276efb106" />
+
+-Enquiry Page
+- <img width="1919" height="941" alt="image" src="https://github.com/user-attachments/assets/64744b1d-889d-4df0-bdcb-4cf17da1ee1e" />
 
 - Contact Us
-  <img width="1901" height="1030" alt="Contact us Page 1" src="https://github.com/user-attachments/assets/80751cbc-01f6-4479-a4f6-05d86e35a81d" />
-<img width="1915" height="1026" alt="Contact us 2" src="https://github.com/user-attachments/assets/cc184a88-27b9-4127-acfe-5fb79bf4d003" />
+  - <img width="1919" height="950" alt="image" src="https://github.com/user-attachments/assets/3172ce03-3036-4364-bf95-0e0aa5e36266" />
+
+
 
 
 # Sitemap
@@ -82,6 +88,7 @@ Mobile
  - Added SEO meta descriptions to all pages.
  - Added a hero image on Home.
  - Updated README with references and acknowledgments.
+ - Fixed error handling on contact page and donation and volunteer page
 
 # References 
 

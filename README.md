@@ -85,14 +85,11 @@ Mobile
 
 # References 
 
-- Google Fonts (2025) Poppins. [Online] Available at: https://fonts.google.com/specimen/Poppins
- [Accessed 29 September 2025].
-- CSS-Tricks (2025) A Complete Guide to Grid. [Online] Available at: https://css-tricks.com/snippets/css/complete-guide-grid/
-   [Accessed 29 September 2025].
-- W3Schools (2025) HTML and CSS Tutorials. [Online] Available at: https://www.w3schools.com
- [Accessed 29 September 2025].
-- Mozilla Developer Network (MDN) (2025) CSS Flexbox. [Online] Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
- [Accessed 29 September 2025].
+- Google Fonts (2025). Poppins. Available at: https://fonts.google.com/specimen/Poppins (Accessed 3 November 2025).
+- Unsplash (n.d.). Volunteers at a community event by Perry Grone. Available at: https://unsplash.com/photos/photo-1571260899304-425eee4c7efc (Accessed 3 November 2025).
+- CSS‑Tricks (2025). A Complete Guide to Grid. Available at: https://css-tricks.com/snippets/css/complete-guide-grid/ (Accessed 29 September 2025).
+- W3Schools (2025). HTML and CSS Tutorials. Available at: https://www.w3schools.com (Accessed 29 September 2025).
+- Mozilla Developer Network (MDN) (2025). CSS Flexbox. Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox (Accessed 29 September 2025).
 
 #  Acknowledgment – AI Assistance
 

@@ -82,7 +82,7 @@ Mobile
 - Applied layout adjustments and responsive design for desktop, tablet, and mobile.
 - Ensured footer stays at the bottom and text/images scale correctly.
   
-### Part 3 (Functionality + SEO)
+# Part 3 (Functionality + SEO + HTML + CSS)
 - Added Enquiry page with HTML5 + JavaScript validation, success message, and automatic form reset.
  - Inserted Enquiry link in the navigation and ensured header title is consistent across pages.
  - Added SEO meta descriptions to all pages.

@@ -90,6 +90,10 @@ Mobile
  - Updated README with references and acknowledgments.
  - Fixed error handling on contact page and donation and volunteer page
 
+   # How to Run
+- Open `index.html` in a browser.  
+- No build step required.
+
 # References 
 
 - Google Fonts (2025). Poppins. Available at: https://fonts.google.com/specimen/Poppins (Accessed 3 November 2025).
